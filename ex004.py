@@ -1,0 +1,10 @@
+ex = input('Digite algo:')
+
+print(type(ex))
+print('Só tem espaços?', ex.isspace())
+print('É um número?', ex.isnumeric())
+print('É alfabético?', ex.isalpha())
+print('É alfanumérico?', ex.isalnum())
+print('Só está em maiúsculas?', ex.isupper())
+print('Só está em minúscula?', ex.islower())
+print('É capitalizada?', ex.istitle())
